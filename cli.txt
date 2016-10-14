@@ -1,0 +1,9 @@
+Iport from file system to aem
+vlt -v import http://localhost:4502/crx .\jcr_root /
+
+Export from aem to fs 
+vlt -v export http://localhost:4502/crx /apps/newssite <content_folder>
+vlt -v export http://localhost:4502/crx /etc/designs/newssite <content_folder>
+
+
+vlt -v export http://localhost:4502/crx /etc/designs/newssite <content_folder>

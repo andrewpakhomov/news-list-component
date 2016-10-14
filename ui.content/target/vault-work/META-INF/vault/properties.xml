@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>newssite - UI content</comment>
+<entry key="createdBy">Andrey_Pakhomov</entry>
+<entry key="name">newssite.ui.content</entry>
+<entry key="created">2016-10-14T17:56:00.280+0300</entry>
+<entry key="groupId">com.epam.training</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">newssite</entry>
+<entry key="description">UI content package for newssite</entry>
+<entry key="artifactId">newssite.ui.content</entry>
+<entry key="path">/etc/packages/newssite/newssite.ui.content.zip</entry>
+</properties>

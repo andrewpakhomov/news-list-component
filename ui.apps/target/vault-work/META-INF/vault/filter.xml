@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/newssite">
+        <exclude pattern="/apps/newssite/jcr:system"/>
+        <exclude pattern="/apps/newssite/var/classes"/>
+        <exclude pattern="^.*/rep:accessControl"/>
+    </filter>
+    <filter root="/etc/desgins/newssite"/>
+</workspaceFilter>
