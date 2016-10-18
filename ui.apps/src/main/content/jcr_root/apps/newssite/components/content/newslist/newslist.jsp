@@ -21,6 +21,7 @@
 
 <%
 %><%@taglib prefix="cq" uri="http://www.day.com/taglibs/cq/1.0" %>
+<cq:includeClientLib categories="cq.social.bootstrap.3"/>
 <%@include file="/libs/granite/ui/global.jsp" %>
 
 <%@ page import="org.slf4j.Logger" %>
@@ -30,7 +31,8 @@
     private final Logger mLog = LoggerFactory.getLogger(this.getClass());
 %>
 
-
+<div class="container-fluid">
+    <div class="row">
 <%
 mLog.info("trying to create custom datasource");
 // set fallback
@@ -80,4 +82,6 @@ if (resourceCount > 1) {
 <%
 }
     %>
+    </div>
+</div>
 

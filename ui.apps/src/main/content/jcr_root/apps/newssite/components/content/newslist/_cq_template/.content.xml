@@ -3,7 +3,7 @@
     jcr:primaryType="nt:unstructured">
     <layout
         jcr:primaryType="nt:unstructured"
-        sling:resourceType="/libs/granite/ui/components/foundation/layouts/container"/>
+        sling:resourceType="/libs/granite/ui/components/foundation/layouts/cardview"/>
     <datasource
         jcr:primaryType="nt:unstructured"
         sling:resourceType="/apps/newssite/components/content/newslistds"/>

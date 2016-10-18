@@ -13,6 +13,7 @@ import org.apache.sling.api.resource.ValueMap;
 
 public class NewsPageModel extends ValueMapResource{
 
+    
     public NewsPageModel(ResourceResolver resourceResolver, String path, String resourceType, ValueMap vm) {
         super(resourceResolver, path, resourceType, vm);
     }
